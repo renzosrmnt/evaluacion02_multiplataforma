@@ -1,15 +1,14 @@
 # fl_components
 
-A new Flutter project.
+Proyecto a realizar en clase para el aprendizaje de componentes de flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Este proyecto ha iniciado desde 0 y lo iremos completando el resto de semanas del curso
 
-A few resources to get you started if this is your first Flutter project:
+Les adjunto algunos recursos para poder terminarlo sin problema
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Resources: Check this out](https://github.com/Odenfis/AppMulti)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
