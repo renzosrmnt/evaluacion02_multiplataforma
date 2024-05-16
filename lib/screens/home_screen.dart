@@ -21,13 +21,13 @@ class HomeScreen extends StatelessWidget {
 
       body: ListView.separated(
         itemBuilder:(context, index) => ListTile(
-          leading: const Icon(Icons.settings_input_hdmi_rounded, color: Colors.indigo,),
-          title: const Text('Items de prueba'),
+          leading: Icon(AppRoutes.menuOptions[index].icon, color: Colors.indigo,),
+          title: Text(AppRoutes.menuOptions[index].name),
           trailing: const Icon(Icons.fork_right_sharp, color: Colors.indigo,),
           onTap: () {
             //final route = MaterialPageRoute(builder: (context) => const AlertScreen());
             //Navigator.push(context,route);
-            Navigator.pushNamed(context, 'card');
+            Navigator.pushNamed(context, AppRoutes.menuOptions[index].route);
           },
         ),
         separatorBuilder:(context, index) => const Divider(),
