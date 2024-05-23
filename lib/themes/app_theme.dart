@@ -10,6 +10,11 @@ class AppTheme{
     ),
     iconTheme: const IconThemeData(
       color: primary
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: primary
+      )
     )
     );
 }

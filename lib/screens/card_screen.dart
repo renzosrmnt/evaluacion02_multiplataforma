@@ -1,4 +1,5 @@
-import 'package:fl_components/widgets/custom_card_type1.dart';
+
+import 'package:fl_components/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class CardScreen extends StatelessWidget {
@@ -14,9 +15,13 @@ class CardScreen extends StatelessWidget {
       body: ListView(
         children: const[
           CustomCardType1(),
+          SizedBox(height: 10),
           CustomCardType1(),
+          SizedBox(height: 10),
           CustomCardType1(),
-          CustomCardType1(),
+          SizedBox(height: 10),
+          CustomCardType2(),
+          SizedBox(height: 10),
           CustomCardType1()
         ],
       ),    
