@@ -9,10 +9,12 @@ class CardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: const Text('Card Widget'),
       ),
       body: ListView(
+        padding: const EdgeInsets.only(right: 8, left: 8),
         children: const[
           CustomCardType1(),
           SizedBox(height: 10),
