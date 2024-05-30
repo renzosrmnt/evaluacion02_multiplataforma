@@ -1,7 +1,9 @@
+
+
 import 'package:flutter/material.dart';
 
 class AppTheme{
-  static const Color primary = Colors.green;
+  static const Color primary = Colors.indigo;
   static final ThemeData odenfisTheme = ThemeData(
     primaryColor: primary,
     appBarTheme: const AppBarTheme(
@@ -14,6 +16,16 @@ class AppTheme{
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         foregroundColor: primary
+      )
+    ),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: primary
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: primary,        
+       //shape: const StadiumBorder(), //redondeo de boton
+        elevation: 0
       )
     )
     );
